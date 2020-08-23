@@ -20,6 +20,14 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  # Setup Pry per https://forum.shakacode.com/t/my-pryrc-for-debugging-and-productivity/364
+  gem "pry-rails"
+  gem "pry-byebug"
+  gem "pry-doc"
+  gem "pry-rescue"
+
+  gem "awesome_print"
 end
 
 group :development do
